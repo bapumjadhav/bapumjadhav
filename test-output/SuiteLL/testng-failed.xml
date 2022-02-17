@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteLL]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listners.testnglsner"/>
+  </listeners>
+  <test thread-count="5" name="TestLL(failed)">
+    <classes>
+      <class name="listners.testnglsner">
+        <methods>
+          <include name="Selectt"/>
+          <include name="DatePicker11"/>
+          <include name="Requirement"/>
+        </methods>
+      </class> <!-- listners.testnglsner -->
+    </classes>
+  </test> <!-- TestLL(failed) -->
+</suite> <!-- Failed suite [SuiteLL] -->
