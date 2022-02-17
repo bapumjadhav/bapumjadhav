@@ -16,6 +16,8 @@ public class DependonMethod {
 	public void loginclick() {
 		driver.findElement(By.id("btnLogin")).click();
         Reporter.log("login is successfull",true);
+        int a=10;
+        System.out.println(a);
 	}
 
 	@Test
